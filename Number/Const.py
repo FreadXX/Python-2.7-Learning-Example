@@ -24,9 +24,15 @@ hexNum = 0x1bf;
 binNum = 0b10110110;
 
 #Print 3 Int Number(Oct Format, Hex Format, Binary Format);
+#Notice : str()function automaticlly convert all format integer to decimal format
 print('Octual Number:' + str(octNum));
 print('Hex Number:' + str(hexNum));
 print('Binary Number:' + str(binNum));
+
+#Print with Convert function (Print the correspoding format of specified number)
+print('Octual Number:' + oct(octNum));
+print('Hex Number:' + hex(hexNum));
+print('Binary Number:' + bin(binNum));
 
 
 
